@@ -69,11 +69,11 @@ def sort_result(x):
 		x['pts'],
 		x['wins'],
 		x['gd'],
-		x['scored'],
-		x['name']
+		x['scored']
 	)
 
-team_results = sorted(map(conv, teams.iteritems()), key=sort_result)
+team_results = sorted(map(conv, teams.iteritems()), key=lambda x: x['name'], reverse=True)
+team_results = sorted(team_results, key=sort_result)
 
 namecollen = max([len(team['name']) for team in team_results]) + 2
 
@@ -125,8 +125,8 @@ def res_to_dic(res):
 		'conceded': res.conceded,
 	}
 
-
-players = sorted(map(res_to_dic, players.values()), key=sort_result)
+players = sorted(map(res_to_dic, players.values()), key=lambda x: x['name'], reverse=True)
+players = sorted(players, key=sort_result)
 namecollen = max([len(player['name']) for player in players]) + 2
 print ".#|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Team".ljust(namecollen, padchar), num_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
 print "--+%s++----++----+----+----+----++----++----+----" % "-".ljust(namecollen, "-")
