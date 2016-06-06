@@ -127,14 +127,15 @@ def res_to_dic(res):
 
 players = sorted(map(res_to_dic, players.values()), key=lambda x: x['name'], reverse=True)
 players = sorted(players, key=sort_result)
-namecollen = max([len(player['name']) for player in players]) + 2
-print ".#|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Team".ljust(namecollen, padchar), num_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
-print "--+%s++----++----+----+----+----++----++----+----" % "-".ljust(namecollen, "-")
+pnamecollen = max([len(player['name']) for player in players]) + 2
+print ".#|%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Player".ljust(pnamecollen, padchar), "City".ljust(namecollen, padchar), num_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
+print "--+%s+%s++----++----+----+----+----++----++----+----" % ("-".ljust(pnamecollen, "-"), "-".ljust(namecollen, "-"))
 for idx, result in enumerate(reversed(players)):
-	print ("%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" %
+	print ("%s|%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" %
 		(
 			str(idx+1).rjust(2, padchar),
-			result['name'].ljust(namecollen, padchar),
+			result['name'].ljust(pnamecollen, padchar),
+			result['city'].ljust(namecollen, padchar),
 			num_col(result['pts']),
 			num_col(result['wins']),
 			num_col(result['draws']),

@@ -12,60 +12,60 @@
 10|Rio        || -1 ||  0 |  1 |  2 |  2 || -5 ||  1 |  6
 11|SP         || -5 ||  0 |  0 |  0 |  5 ||  0 ||  0 |  0
 
-.#|Player                   ||Pts ||  W |  D |  L |  M || GD || Sc | Cn
---+-------------------------++----++----+----+----+----++----++----+----
- 1|Zoe Ash                  ||  3 ||  1 |  0 |  0 |  0 ||  8 ||  9 |  1
- 2|Axel Guerrisi            ||  3 ||  1 |  0 |  0 |  0 ||  4 ||  4 |  0
- 3|Vanessa del Toro         ||  3 ||  1 |  0 |  0 |  0 ||  4 ||  4 |  0
- 4|Ayana Taylor             ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  4 |  1
- 5|Jeremy Woodhouse         ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  4 |  1
- 6|Klaas Vermeer            ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  4 |  1
- 7|Arianna De Matteis       ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  3 |  0
- 8|Azzura Brillante         ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  3 |  0
- 9|Dawn Delaney             ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  3 |  0
-10|Bia Bauer                ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  4 |  2
-11|Szonja Pallagi           ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  4 |  2
-12|Elisabete Tavares        ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  3 |  1
-13|Kevin Symmons            ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  3 |  1
-14|Maria Tonon              ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  3 |  1
-15|Constantino Cordero      ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  2 |  0
-16|Royce Gallant            ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  2 |  0
-17|Diego De Matteis         ||  3 ||  1 |  0 |  0 |  0 ||  1 ||  3 |  2
-18|Johnny Luguori           ||  3 ||  1 |  0 |  0 |  0 ||  1 ||  3 |  2
-19|Clint Eastwood           ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  3 |  3
-20|Irish Boven              ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  2 |  2
-21|Samuele De Matteis       ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  1 |  1
-22|Ace Mason                ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  0 |  0
-23|Laura Cross              ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  0 |  0
-24|Lexie Chapman            ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  0 |  0
-25|Liam Bullock             ||  0 ||  0 |  0 |  1 |  0 || -1 ||  4 |  5
-26|Andrea Sina              ||  0 ||  0 |  0 |  1 |  0 || -1 ||  2 |  3
-27|Guillermo Martínez       ||  0 ||  0 |  0 |  1 |  0 || -1 ||  2 |  3
-28|Jean-Leon Rocker         ||  0 ||  0 |  0 |  1 |  0 || -1 ||  2 |  3
-29|Giulia Monaci            ||  0 ||  0 |  0 |  1 |  0 || -1 ||  1 |  2
-30|Noa Köhler               ||  0 ||  0 |  0 |  1 |  0 || -1 ||  1 |  2
-31|Teo Ash                  ||  0 ||  0 |  0 |  1 |  0 || -1 ||  1 |  2
-32|Barney Cinnamon          ||  0 ||  0 |  0 |  1 |  0 || -1 ||  0 |  1
-33|Juliann Ash              ||  0 ||  0 |  0 |  1 |  0 || -1 ||  0 |  1
-34|Sean Chapman             ||  0 ||  0 |  0 |  1 |  0 || -1 ||  0 |  1
-35|Barbara Lepschy          ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
-36|Beatrix Bíró             ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
-37|David Brillante          ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
-38|Liliána Székely          ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
-39|Max Bullock              ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
-40|Alberto Bassi            ||  0 ||  0 |  0 |  1 |  0 || -2 ||  0 |  2
-41|Ania Hogan               ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
-42|Camiel Boven             ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
-43|Liesbeth Vermeer         ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
-44|Maurizio Anessi Pessina  ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
-45|Damien Carpenter         ||  0 ||  0 |  0 |  1 |  0 || -4 ||  1 |  5
-46|Sophia de la Cuesta      ||  0 ||  0 |  0 |  1 |  0 || -5 ||  3 |  8
-47|Jacob Bullock            ||  0 ||  0 |  0 |  1 |  0 || -6 ||  2 |  8
-48|Anthony Summers          || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-49|Drago Müller             || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-50|Ines Lazo                || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-51|Lana                     || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-52|Liam Monticelli          || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-53|Lucy Guthmann            || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-54|Luna Hazelet             || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
-55|Thiago de la Cruz Tome   || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+.#|Player                   |City       ||Pts ||  W |  D |  L |  M || GD || Sc | Cn
+--+-------------------------+-----------++----++----+----+----+----++----++----+----
+ 1|Zoe Ash                  |London     ||  3 ||  1 |  0 |  0 |  0 ||  8 ||  9 |  1
+ 2|Axel Guerrisi            |Milan      ||  3 ||  1 |  0 |  0 |  0 ||  4 ||  4 |  0
+ 3|Vanessa del Toro         |Porto      ||  3 ||  1 |  0 |  0 |  0 ||  4 ||  4 |  0
+ 4|Ayana Taylor             |Porto      ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  4 |  1
+ 5|Jeremy Woodhouse         |Melbourne  ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  4 |  1
+ 6|Klaas Vermeer            |Brussels   ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  4 |  1
+ 7|Arianna De Matteis       |NYC        ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  3 |  0
+ 8|Azzura Brillante         |Rome       ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  3 |  0
+ 9|Dawn Delaney             |London     ||  3 ||  1 |  0 |  0 |  0 ||  3 ||  3 |  0
+10|Bia Bauer                |Budapest   ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  4 |  2
+11|Szonja Pallagi           |Budapest   ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  4 |  2
+12|Elisabete Tavares        |Porto      ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  3 |  1
+13|Kevin Symmons            |London     ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  3 |  1
+14|Maria Tonon              |Milan      ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  3 |  1
+15|Constantino Cordero      |BA         ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  2 |  0
+16|Royce Gallant            |Melbourne  ||  3 ||  1 |  0 |  0 |  0 ||  2 ||  2 |  0
+17|Diego De Matteis         |Rome       ||  3 ||  1 |  0 |  0 |  0 ||  1 ||  3 |  2
+18|Johnny Luguori           |NYC        ||  3 ||  1 |  0 |  0 |  0 ||  1 ||  3 |  2
+19|Clint Eastwood           |NYC        ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  3 |  3
+20|Irish Boven              |Brussels   ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  2 |  2
+21|Samuele De Matteis       |Milan      ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  1 |  1
+22|Ace Mason                |NYC        ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  0 |  0
+23|Laura Cross              |Porto      ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  0 |  0
+24|Lexie Chapman            |Rio        ||  1 ||  0 |  1 |  0 |  0 ||  0 ||  0 |  0
+25|Liam Bullock             |Melbourne  ||  0 ||  0 |  0 |  1 |  0 || -1 ||  4 |  5
+26|Andrea Sina              |Milan      ||  0 ||  0 |  0 |  1 |  0 || -1 ||  2 |  3
+27|Guillermo Martínez       |BA         ||  0 ||  0 |  0 |  1 |  0 || -1 ||  2 |  3
+28|Jean-Leon Rocker         |BA         ||  0 ||  0 |  0 |  1 |  0 || -1 ||  2 |  3
+29|Giulia Monaci            |Rome       ||  0 ||  0 |  0 |  1 |  0 || -1 ||  1 |  2
+30|Noa Köhler               |Porto      ||  0 ||  0 |  0 |  1 |  0 || -1 ||  1 |  2
+31|Teo Ash                  |London     ||  0 ||  0 |  0 |  1 |  0 || -1 ||  1 |  2
+32|Barney Cinnamon          |Budapest   ||  0 ||  0 |  0 |  1 |  0 || -1 ||  0 |  1
+33|Juliann Ash              |BA         ||  0 ||  0 |  0 |  1 |  0 || -1 ||  0 |  1
+34|Sean Chapman             |Rio        ||  0 ||  0 |  0 |  1 |  0 || -1 ||  0 |  1
+35|Barbara Lepschy          |Rome       ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
+36|Beatrix Bíró             |Budapest   ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
+37|David Brillante          |Rome       ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
+38|Liliána Székely          |Budapest   ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
+39|Max Bullock              |Melbourne  ||  0 ||  0 |  0 |  1 |  0 || -2 ||  1 |  3
+40|Alberto Bassi            |BA         ||  0 ||  0 |  0 |  1 |  0 || -2 ||  0 |  2
+41|Ania Hogan               |London     ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
+42|Camiel Boven             |Brussels   ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
+43|Liesbeth Vermeer         |Brussels   ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
+44|Maurizio Anessi Pessina  |Milan      ||  0 ||  0 |  0 |  1 |  0 || -3 ||  0 |  3
+45|Damien Carpenter         |Rio        ||  0 ||  0 |  0 |  1 |  0 || -4 ||  1 |  5
+46|Sophia de la Cuesta      |Brussels   ||  0 ||  0 |  0 |  1 |  0 || -5 ||  3 |  8
+47|Jacob Bullock            |Melbourne  ||  0 ||  0 |  0 |  1 |  0 || -6 ||  2 |  8
+48|Anthony Summers          |SP         || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+49|Drago Müller             |Rio        || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+50|Ines Lazo                |SP         || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+51|Lana                     |SP         || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+52|Liam Monticelli          |SP         || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+53|Lucy Guthmann            |SP         || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+54|Luna Hazelet             |NYC        || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
+55|Thiago de la Cruz Tome   |Rio        || -1 ||  0 |  0 |  0 |  1 ||  0 ||  0 |  0
