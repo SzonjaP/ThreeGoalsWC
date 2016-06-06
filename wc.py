@@ -24,7 +24,7 @@ for day, cities in rounds.iteritems():
 			if player not in teams[city]:
 				teams[city][player] = Result(player, city);
 
-			if match is False:
+			if match is None:
 				teams[city][player].walkovers += 1
 				continue
 

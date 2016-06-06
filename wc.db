@@ -64,7 +64,7 @@
 				u'Johnny Luguori': Match(3,2, "81"),
 				u'Arianna De Matteis': Match(3,0, "82"),
 				u'Ace Mason': Match(0,0, "78"),
-				u'Luna Hazelet': False,
+				u'Luna Hazelet': None,
 			},
 
 			'Porto': {
@@ -79,16 +79,16 @@
 				u'Damien Carpenter': Match(1,5, "72"),
 				u'Sean Chapman': Match(0,1, "84"),
 				u'Lexie Chapman': Match(0,0, "70"),
-				u'Thiago de la Cruz Tome': False,
-				u'Drago Müller': False,
+				u'Thiago de la Cruz Tome': None,
+				u'Drago Müller': None,
 			},
 
 			"SP": {
-				u'Anthony Summers': False,
-				u'Lucy Guthmann': False,
-				u'Lana': False,
-				u'Liam Monticelli': False,
-				u'Ines Lazo': False,
+				u'Anthony Summers': None,
+				u'Lucy Guthmann': None,
+				u'Lana': None,
+				u'Liam Monticelli': None,
+				u'Ines Lazo': None,
 			}
 		},
 	}
