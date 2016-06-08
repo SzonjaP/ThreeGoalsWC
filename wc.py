@@ -2,8 +2,12 @@
 
 import logging
 import operator
+import itertools
 from collections import namedtuple
 from recordtype import recordtype
+
+logging.basicConfig(level=logging.DEBUG)
+
 
 #Team = namedtuple('Team', ['player_name', 'team_name', 'character_id'])
 Match = namedtuple('Match', ['scored', 'conceded', 'message'])
@@ -12,26 +16,34 @@ Result = recordtype('Result', ['player_name', 'city', ('wins', 0), ('losses', 0)
 
 with open("wc.db", 'r') as f:
 	s = eval(f.read().decode('utf-8'))
-	rounds = s['rounds']
 
+rounds = s['rounds']
 teams = { city: { player: Result(player, city) for player in s['teams'][city] } for city in s['teams'].keys() };
 
-for day, cities in rounds.iteritems():
-	for city, city_results in cities.iteritems():
-		if city not in teams:
-			teams[city] = {}
 
-		for player, match in city_results.iteritems():
+all_players = list(itertools.chain.from_iterable(teams.values()))
+
+for day, matches in rounds.iteritems():
+	if set(matches.keys()) - set(all_players):
+		logging.warning("On day %s unteamed players: %s", day, set(matches.keys()) - set(all_players));
+
+	for city, team in teams.iteritems():
+		for player, result in team.iteritems():
+			if player not in matches:
+				logging.info("No match for player %s (%s) in round %s, walkover", player, city, day)
+				matches[player] = None
+
+			match = matches[player]
+
 			if match is None:
-				teams[city][player].walkovers += 1
+				result.walkovers += 1
 				continue
 
-			res = teams[city][player]
-			res.wins     += (match.scored > match.conceded)
-			res.losses   += (match.scored < match.conceded)
-			res.draws    += (match.scored == match.conceded)
-			res.scored   += match.scored
-			res.conceded += match.conceded
+			result.wins     += (match.scored > match.conceded)
+			result.losses   += (match.scored < match.conceded)
+			result.draws    += (match.scored == match.conceded)
+			result.scored   += match.scored
+			result.conceded += match.conceded
 
 
 def conv(team):
