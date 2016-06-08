@@ -1,6 +1,19 @@
 #2264492.61
 
 {
+	'teams': {
+		"Budapest": [ u'Liliána Székely', u'Beatrix Bíró', u'Szonja Pallagi', u'Barney Cinnamon', u'Bia Bauer' ],
+		"BA": [ u'Constantino Cordero', u'Jean-Leon Rocker', u'Juliann Ash', u'Alberto Bassi', u'Guillermo Martínez' ],
+		"Brussels": [ u'Irish Boven', u'Camiel Boven', u'Klaas Vermeer', u'Sophia de la Cuesta', u'Liesbeth Vermeer' ],
+		"London": [ u'Zoe Ash', u'Teo Ash', u'Ania Hogan', u'Dawn Delaney', u'Kevin Symmons' ],
+		"Milan": [ u'Maria Tonon', u'Axel Guerrisi', u'Samuele De Matteis', u'Andrea Sina', u'Maurizio Anessi Pessina' ],
+		"Melbourne": [ u'Royce Gallant', u'Max Bullock', u'Jacob Bullock', u'Liam Bullock', u'Jeremy Woodhouse' ],
+		"Rome": [ u'David Brillante', u'Azzura Brillante', u'Diego De Matteis', u'Giulia Monaci', u'Barbara Lepschy' ],
+		"NYC": [ u'Clint Eastwood', u'Johnny Luguori', u'Arianna De Matteis', u'Ace Mason', u'Luna Hazelet' ],
+		"Porto": [ u'Laura Cross', u'Noa Köhler', u'Ayana Taylor', u'Vanessa del Toro', u'Elisabete Tavares' ],
+		"Rio": [ u'Damien Carpenter', u'Sean Chapman', u'Lexie Chapman', u'Thiago de la Cruz Tome', u'Drago Müller' ],
+		"SP": [ u'Anthony Summers', u'Lucy Guthmann', u'Lana', u'Liam Monticelli', u'Ines Lazo' ]
+	},
 	'rounds': {
 		'2016-05-29': {
 			"Budapest": {

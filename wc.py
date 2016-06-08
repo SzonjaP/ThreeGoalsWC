@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import logging
 import operator
 from collections import namedtuple
 from recordtype import recordtype
@@ -13,7 +14,7 @@ with open("wc.db", 'r') as f:
 	s = eval(f.read().decode('utf-8'))
 	rounds = s['rounds']
 
-teams = {};
+teams = { city: { player: Result(player, city) for player in s['teams'][city] } for city in s['teams'].keys() };
 
 for day, cities in rounds.iteritems():
 	for city, city_results in cities.iteritems():
@@ -21,9 +22,6 @@ for day, cities in rounds.iteritems():
 			teams[city] = {}
 
 		for player, match in city_results.iteritems():
-			if player not in teams[city]:
-				teams[city][player] = Result(player, city);
-
 			if match is None:
 				teams[city][player].walkovers += 1
 				continue
