@@ -13,7 +13,6 @@
 			font-family: monospace;
 			text-align: right;
 		}
-
 	</style>
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -24,7 +23,7 @@
 	<script type="text/javascript" src='lib/angular-tablesort.js'></script>
 	<script type="text/javascript" src='app.js'></script>
 </head>
-<body ng-cloak >
+<body ng-cloak ng-controller='standings as ctrl'>
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -34,7 +33,9 @@
 	</nav>
 
 
-	<div class='container' ng-controller='team-standings as ctrl'>
+	<div class='container'>
+		<h1>Team standings</h1>
+
 		<table class='table table-hover table-striped table-bordered' style='width: auto;' ts-wrapper>
 			<thead>
 				<tr>
@@ -78,6 +79,59 @@
 					<td class='numeric' width="8%">{{team.gd}}</td>
 					<td class='numeric' width="8%">{{team.scored}}</td>
 					<td class='numeric' width="8%">{{team.conceded}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class='container'>
+		<h1>Player standings</h1>
+
+		<table class='table table-hover table-striped table-bordered' style='width: auto;' ts-wrapper>
+			<thead>
+				<tr>
+					<th width="8%" ts-criteria="rank | parseInt" ts-default="ascending">#</th>
+					<th ts-criteria="name">Player</th>
+					<th ts-criteria="city">City</th>
+					<th width="10%" ts-criteria="pts | parseInt">
+						<abbr title="Points">Pts</abbr>
+					</th>
+					<th width="8%" ts-criteria="wins | parseInt">
+						<abbr title="Wins">W</abbr>
+					</th>
+					<th width="8%" ts-criteria="draws | parseInt">
+						<abbr title="Draws">D</abbr>
+					</th>
+					<th width="8%" ts-criteria="losses | parseInt">
+						<abbr title="Losses">L</abbr>
+					</th>
+					<th width="8%" ts-criteria="walkovers | parseInt">
+						<abbr title="Walkovers">M</abbr>
+					</th>
+					<th width="8%" ts-criteria="gd | parseInt">
+						<abbr title="Goal difference">GD</abbr>
+					</th>
+					<th width="8%" ts-criteria="scored | parseInt">
+						<abbr title="Goals scored">Sc</abbr>
+					</th>
+					<th width="8%" ts-criteria="conceded | parseInt">
+						<abbr title="Goals conceded">Cn</abbr>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="player in ctrl.players" ts-repeat>
+					<td class='numeric' width="8%">{{player.rank}}</td>
+					<td>{{player.name}}</td>
+					<td>{{player.city}}</td>
+					<td class='numeric' width="10%">{{player.pts}}</td>
+					<td class='numeric' width="8%">{{player.wins}}</td>
+					<td class='numeric' width="8%">{{player.draws}}</td>
+					<td class='numeric' width="8%">{{player.losses}}</td>
+					<td class='numeric' width="8%">{{player.walkovers}}</td>
+					<td class='numeric' width="8%">{{player.gd}}</td>
+					<td class='numeric' width="8%">{{player.scored}}</td>
+					<td class='numeric' width="8%">{{player.conceded}}</td>
 				</tr>
 			</tbody>
 		</table>

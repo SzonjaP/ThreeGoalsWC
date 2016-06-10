@@ -2,21 +2,23 @@ angular.module("three-goals-wc", ['tableSort'])
 .factory("datasource", function($http) {
 	var cache = null;
 
-	var getTeamResults = function() {
+	var getResults = function() {
 		return $http.get('db.json').then(function(res) {
-			return res.data.teams;
+			return res.data;
 		});
 	};
 
 	return {
-		getTeamResults: getTeamResults
+		getResults: getResults
 	}
 })
-.controller("team-standings", function(datasource) {
-	this.teams = {};
+.controller("standings", function(datasource) {
+	this.teams = [];
+	this.players = [];
 
 	self = this;
-	datasource.getTeamResults().then(function(teams) {
-		self.teams = teams;
+	datasource.getResults().then(function(data) {
+		self.teams = data.teams;
+		self.players = data.players;
 	});
 });
