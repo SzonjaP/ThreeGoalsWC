@@ -87,7 +87,7 @@ def add_ranks(xs):
 		if prev is None:
 			x['rank'] = '1'
 		else:
-			x['rank'] = '%d'%(idx+1) if not rank(prev) == rank(x) else '='
+			x['rank'] = '%d'%(idx+1) if not rank(prev) == rank(x) else prev['rank']
 		prev = x;
 
 

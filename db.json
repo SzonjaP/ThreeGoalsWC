@@ -2,7 +2,7 @@
     "players": [
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -15,7 +15,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -28,7 +28,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -41,7 +41,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -54,7 +54,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -67,7 +67,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -80,7 +80,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "48",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -145,7 +145,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "41",
             "gd": -3,
             "conceded": 3,
             "walkovers": 0,
@@ -158,7 +158,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "41",
             "gd": -3,
             "conceded": 3,
             "walkovers": 0,
@@ -171,7 +171,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "41",
             "gd": -3,
             "conceded": 3,
             "walkovers": 0,
@@ -210,7 +210,7 @@
         },
         {
             "scored": 1,
-            "rank": "=",
+            "rank": "35",
             "gd": -2,
             "conceded": 3,
             "walkovers": 0,
@@ -223,7 +223,7 @@
         },
         {
             "scored": 1,
-            "rank": "=",
+            "rank": "35",
             "gd": -2,
             "conceded": 3,
             "walkovers": 0,
@@ -236,7 +236,7 @@
         },
         {
             "scored": 1,
-            "rank": "=",
+            "rank": "35",
             "gd": -2,
             "conceded": 3,
             "walkovers": 0,
@@ -249,7 +249,7 @@
         },
         {
             "scored": 1,
-            "rank": "=",
+            "rank": "35",
             "gd": -2,
             "conceded": 3,
             "walkovers": 0,
@@ -275,7 +275,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "32",
             "gd": -1,
             "conceded": 1,
             "walkovers": 0,
@@ -288,7 +288,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "32",
             "gd": -1,
             "conceded": 1,
             "walkovers": 0,
@@ -314,7 +314,7 @@
         },
         {
             "scored": 1,
-            "rank": "=",
+            "rank": "29",
             "gd": -1,
             "conceded": 2,
             "walkovers": 0,
@@ -327,7 +327,7 @@
         },
         {
             "scored": 1,
-            "rank": "=",
+            "rank": "29",
             "gd": -1,
             "conceded": 2,
             "walkovers": 0,
@@ -353,7 +353,7 @@
         },
         {
             "scored": 2,
-            "rank": "=",
+            "rank": "26",
             "gd": -1,
             "conceded": 3,
             "walkovers": 0,
@@ -366,7 +366,7 @@
         },
         {
             "scored": 2,
-            "rank": "=",
+            "rank": "26",
             "gd": -1,
             "conceded": 3,
             "walkovers": 0,
@@ -405,7 +405,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "22",
             "gd": 0,
             "conceded": 0,
             "walkovers": 0,
@@ -418,7 +418,7 @@
         },
         {
             "scored": 0,
-            "rank": "=",
+            "rank": "22",
             "gd": 0,
             "conceded": 0,
             "walkovers": 0,
@@ -483,7 +483,7 @@
         },
         {
             "scored": 3,
-            "rank": "=",
+            "rank": "17",
             "gd": 1,
             "conceded": 2,
             "walkovers": 0,
@@ -509,7 +509,7 @@
         },
         {
             "scored": 2,
-            "rank": "=",
+            "rank": "15",
             "gd": 2,
             "conceded": 0,
             "walkovers": 0,
@@ -535,7 +535,7 @@
         },
         {
             "scored": 3,
-            "rank": "=",
+            "rank": "12",
             "gd": 2,
             "conceded": 1,
             "walkovers": 0,
@@ -548,7 +548,7 @@
         },
         {
             "scored": 3,
-            "rank": "=",
+            "rank": "12",
             "gd": 2,
             "conceded": 1,
             "walkovers": 0,
@@ -574,7 +574,7 @@
         },
         {
             "scored": 4,
-            "rank": "=",
+            "rank": "10",
             "gd": 2,
             "conceded": 2,
             "walkovers": 0,
@@ -600,7 +600,7 @@
         },
         {
             "scored": 3,
-            "rank": "=",
+            "rank": "7",
             "gd": 3,
             "conceded": 0,
             "walkovers": 0,
@@ -613,7 +613,7 @@
         },
         {
             "scored": 3,
-            "rank": "=",
+            "rank": "7",
             "gd": 3,
             "conceded": 0,
             "walkovers": 0,
@@ -639,7 +639,7 @@
         },
         {
             "scored": 4,
-            "rank": "=",
+            "rank": "4",
             "gd": 3,
             "conceded": 1,
             "walkovers": 0,
@@ -652,7 +652,7 @@
         },
         {
             "scored": 4,
-            "rank": "=",
+            "rank": "4",
             "gd": 3,
             "conceded": 1,
             "walkovers": 0,
@@ -678,7 +678,7 @@
         },
         {
             "scored": 4,
-            "rank": "=",
+            "rank": "2",
             "gd": 4,
             "conceded": 0,
             "walkovers": 0,
