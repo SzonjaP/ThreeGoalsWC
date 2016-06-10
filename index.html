@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html ng-app='three-goals-wc'>
+<head>
+	<meta charset="utf-8">
+	<title>Three Goals World Championchip 88</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.numeric {
+			font-family: monospace;
+			text-align: right;
+		}
+
+	</style>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.1/lodash.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.3/sprintf.min.js"></script>
+	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js'></script>
+	<script type="text/javascript" src='app.js'></script>
+</head>
+<body ng-cloak >
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<span class="navbar-brand">3Goals WC Fansite!</span>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class='container' ng-controller='team-standings as ctrl'>
+		<table class='table table-hover table-striped table-bordered' style="width: auto;">
+			<thead>
+				<tr>
+					<th class='numeirc' width="8%">#</th>
+					<th>Team</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Points">Pts</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Wins">W</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Draws">D</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Losses">L</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Walkovers">M</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Goal difference">GD</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Goals scored">Sc</abbr>
+					</th>
+					<th class='numeirc' width="8%">
+						<abbr title="Goals conceded">Cn</abbr>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="team in ctrl.teams">
+					<td class='numeric' width="8%">{{team.rank}}</td>
+					<td>{{team.name}}</td>
+					<td class='numeric' width="8%">{{team.pts}}</td>
+					<td class='numeric' width="8%">{{team.wins}}</td>
+					<td class='numeric' width="8%">{{team.draws}}</td>
+					<td class='numeric' width="8%">{{team.losses}}</td>
+					<td class='numeric' width="8%">{{team.walkovers}}</td>
+					<td class='numeric' width="8%">{{team.gd}}</td>
+					<td class='numeric' width="8%">{{team.scored}}</td>
+					<td class='numeric' width="8%">{{team.conceded}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
