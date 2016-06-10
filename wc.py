@@ -9,7 +9,6 @@ from recordtype import recordtype
 
 logging.basicConfig(level=logging.DEBUG)
 
-
 #Team = namedtuple('Team', ['player_name', 'team_name', 'character_id'])
 Match = namedtuple('Match', ['scored', 'conceded', 'message'])
 Result = recordtype('Result', ['player_name', 'city', ('wins', 0), ('losses', 0), ('draws', 0), ('walkovers', 0), ('scored', 0), ('conceded', 0)])
@@ -75,16 +74,27 @@ def conv(team):
 
 	return res;
 
-def sort_result(x):
+def rank(x):
 	return (
 		x['pts'],
 		x['wins'],
 		x['gd'],
 		x['scored']
 	)
+def add_ranks(xs):
+	prev = None
+	for idx, x in enumerate(xs):
+		if prev is None:
+			x['rank'] = '1'
+		else:
+			x['rank'] = '%d'%(idx+1) if not rank(prev) == rank(x) else '='
+		prev = x;
+
 
 team_results = sorted(map(conv, teams.iteritems()), key=lambda x: x['name'], reverse=True)
-team_results = sorted(team_results, key=sort_result)
+team_results = sorted(team_results, key=rank)
+team_results.reverse();
+add_ranks(team_results)
 
 namecollen = max([len(team['name']) for team in team_results]) + 2
 
@@ -95,10 +105,10 @@ def num_col(num):
 
 print ".#|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Team".ljust(namecollen, padchar), num_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
 print "--+%s++----++----+----+----+----++----++----+----" % "-".ljust(namecollen, "-")
-for idx, result in enumerate(reversed(team_results)):
+for result in team_results:
 	print ("%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" %
 		(
-			str(idx+1).rjust(2, padchar),
+			str(result['rank']).rjust(2, padchar),
 			result['name'].ljust(namecollen, padchar),
 			num_col(result['pts']),
 			num_col(result['wins']),
@@ -137,14 +147,16 @@ def res_to_dic(res):
 	}
 
 players = sorted(map(res_to_dic, players.values()), key=lambda x: x['name'], reverse=True)
-players = sorted(players, key=sort_result)
+players = sorted(players, key=rank)
+players.reverse();
+add_ranks(players)
 pnamecollen = max([len(player['name']) for player in players]) + 2
 print ".#|%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Player".ljust(pnamecollen, padchar), "City".ljust(namecollen, padchar), num_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
 print "--+%s+%s++----++----+----+----+----++----++----+----" % ("-".ljust(pnamecollen, "-"), "-".ljust(namecollen, "-"))
-for idx, result in enumerate(reversed(players)):
+for result in players:
 	print ("%s|%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" %
 		(
-			str(idx+1).rjust(2, padchar),
+			str(result['rank']).rjust(2, padchar),
 			result['name'].ljust(pnamecollen, padchar),
 			result['city'].ljust(namecollen, padchar),
 			num_col(result['pts']),
@@ -158,4 +170,4 @@ for idx, result in enumerate(reversed(players)):
 		)
 	)
 
-open('db.json', 'wb').write(json.dumps({'teams': list(reversed(team_results)), 'players': list(reversed(players))}, indent=4, separators=(',', ': '), ensure_ascii=False).encode('utf8'))
+open('db.json', 'wb').write(json.dumps({'teams': team_results, 'players': list(reversed(players))}, indent=4, separators=(',', ': '), ensure_ascii=False).encode('utf8'))
