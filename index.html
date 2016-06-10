@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lib/tablesort.css">
 	<style type="text/css">
 		.numeric {
 			font-family: monospace;
@@ -20,6 +21,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.0.1/lodash.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.0.3/sprintf.min.js"></script>
 	<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.min.js'></script>
+	<script type="text/javascript" src='lib/angular-tablesort.js'></script>
 	<script type="text/javascript" src='app.js'></script>
 </head>
 <body ng-cloak >
@@ -33,42 +35,42 @@
 
 
 	<div class='container' ng-controller='team-standings as ctrl'>
-		<table class='table table-hover table-striped table-bordered' style="width: auto;">
+		<table class='table table-hover table-striped table-bordered' style='width: auto;' ts-wrapper>
 			<thead>
 				<tr>
-					<th class='numeirc' width="8%">#</th>
-					<th>Team</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="rank | parseInt" ts-default="ascending">#</th>
+					<th ts-criteria="name">Team</th>
+					<th width="10%" ts-criteria="pts | parseInt">
 						<abbr title="Points">Pts</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="wins | parseInt">
 						<abbr title="Wins">W</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="draws | parseInt">
 						<abbr title="Draws">D</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="losses | parseInt">
 						<abbr title="Losses">L</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="walkovers | parseInt">
 						<abbr title="Walkovers">M</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="gd | parseInt">
 						<abbr title="Goal difference">GD</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="scored | parseInt">
 						<abbr title="Goals scored">Sc</abbr>
 					</th>
-					<th class='numeirc' width="8%">
+					<th width="8%" ts-criteria="conceded | parseInt">
 						<abbr title="Goals conceded">Cn</abbr>
 					</th>
 				</tr>
 			</thead>
 			<tbody>
-				<tr ng-repeat="team in ctrl.teams">
+				<tr ng-repeat="team in ctrl.teams" ts-repeat>
 					<td class='numeric' width="8%">{{team.rank}}</td>
 					<td>{{team.name}}</td>
-					<td class='numeric' width="8%">{{team.pts}}</td>
+					<td class='numeric' width="10%">{{team.pts}}</td>
 					<td class='numeric' width="8%">{{team.wins}}</td>
 					<td class='numeric' width="8%">{{team.draws}}</td>
 					<td class='numeric' width="8%">{{team.losses}}</td>

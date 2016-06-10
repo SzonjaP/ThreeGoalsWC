@@ -1,4 +1,4 @@
-angular.module("three-goals-wc", [])
+angular.module("three-goals-wc", ['tableSort'])
 .factory("datasource", function($http) {
 	var cache = null;
 
