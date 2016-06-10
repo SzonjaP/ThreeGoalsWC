@@ -3,6 +3,7 @@
 import logging
 import operator
 import itertools
+import json
 from collections import namedtuple
 from recordtype import recordtype
 
@@ -156,3 +157,5 @@ for idx, result in enumerate(reversed(players)):
 			num_col(result['conceded'])
 		)
 	)
+
+open('db.json', 'wb').write(json.dumps({'teams': list(reversed(team_results)), 'players': list(reversed(players))}, indent=4, separators=(',', ': '), ensure_ascii=False).encode('utf8'))
