@@ -63,7 +63,7 @@
 			u'Johnny Luguori': Match(3,2, "81"),
 			u'Arianna De Matteis': Match(3,0, "82"),
 			u'Ace Mason': Match(0,0, "78"),
-			u'Luna Hazelet': None,
+			u'Luna Hazelet': Match(0,5, None),
 
 			u'Laura Cross': Match(0,0, "61"),
 			u'Noa Köhler': Match(1,2, "64"),

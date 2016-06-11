@@ -2,7 +2,7 @@
     "players": [
         {
             "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -15,20 +15,7 @@
         },
         {
             "scored": 0,
-            "rank": "48",
-            "gd": 0,
-            "conceded": 0,
-            "walkovers": 1,
-            "pts": -1,
-            "city": "NYC",
-            "draws": 0,
-            "name": "Luna Hazelet",
-            "wins": 0,
-            "losses": 0
-        },
-        {
-            "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -41,7 +28,7 @@
         },
         {
             "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -54,7 +41,7 @@
         },
         {
             "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -67,7 +54,7 @@
         },
         {
             "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -80,7 +67,7 @@
         },
         {
             "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -93,7 +80,7 @@
         },
         {
             "scored": 0,
-            "rank": "48",
+            "rank": "49",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -106,7 +93,7 @@
         },
         {
             "scored": 2,
-            "rank": "47",
+            "rank": "48",
             "gd": -6,
             "conceded": 8,
             "walkovers": 0,
@@ -114,6 +101,19 @@
             "city": "Melbourne",
             "draws": 0,
             "name": "Jacob Bullock",
+            "wins": 0,
+            "losses": 1
+        },
+        {
+            "scored": 0,
+            "rank": "47",
+            "gd": -5,
+            "conceded": 5,
+            "walkovers": 0,
+            "pts": 0,
+            "city": "NYC",
+            "draws": 0,
+            "name": "Luna Hazelet",
             "wins": 0,
             "losses": 1
         },
@@ -743,14 +743,14 @@
         },
         {
             "scored": 9,
-            "gd": 4,
+            "gd": -1,
             "draws": 2,
             "name": "NYC",
-            "conceded": 5,
-            "walkovers": 1,
+            "conceded": 10,
+            "walkovers": 0,
             "wins": 2,
-            "losses": 0,
-            "pts": 7,
+            "losses": 1,
+            "pts": 8,
             "rank": "3"
         },
         {
