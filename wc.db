@@ -9,7 +9,7 @@
 		"Milan": [ u'Maria Tonon', u'Axel Guerrisi', u'Samuele De Matteis', u'Andrea Sina', u'Maurizio Anessi Pessina' ],
 		"Melbourne": [ u'Royce Gallant', u'Max Bullock', u'Jacob Bullock', u'Liam Bullock', u'Jeremy Woodhouse' ],
 		"Rome": [ u'David Brillante', u'Azzura Brillante', u'Diego De Matteis', u'Giulia Monaci', u'Barbara Lepschy' ],
-		"NYC": [ u'Clint Eastwood', u'Johnny Luguori', u'Arianna De Matteis', u'Ace Mason', u'Luna Hazelet' ],
+		"NYC": [ u'Clint Eastwood', u'Johnny Liguori', u'Arianna De Matteis', u'Ace Mason', u'Luna Hazelet' ],
 		"Porto": [ u'Laura Cross', u'Noa Köhler', u'Ayana Taylor', u'Vanessa del Toro', u'Elisabete Tavares' ],
 		"Rio": [ u'Damien Carpenter', u'Sean Chapman', u'Lexie Chapman', u'Thiago de la Cruz Tome', u'Drago Müller' ],
 		"SP": [ u'Anthony Summers', u'Lucy Guthmann', u'Lana', u'Liam Monticelli', u'Ines Lazo' ]
@@ -60,7 +60,7 @@
 			u'Barbara Lepschy': Match(1,3, "85"),
 
 			u'Clint Eastwood': Match(3,3, "63"),
-			u'Johnny Luguori': Match(3,2, "81"),
+			u'Johnny Liguori': Match(3,2, "81"),
 			u'Arianna De Matteis': Match(3,0, "82"),
 			u'Ace Mason': Match(0,0, "78"),
 			u'Luna Hazelet': Match(0,5, None),
@@ -82,6 +82,58 @@
 			u'Lana': None,
 			u'Liam Monticelli': None,
 			u'Ines Lazo': None,
+		},
+		'2016-06-06': {
+			u'Liliána Székely': Match(4,2, "89"),
+			u'Beatrix Bíró': Match(1,2, "90"),
+			u'Bia Bauer': Match(4,3, "93"),
+			u'Szonja Pallagi': Match(4,3, "97"),
+			u'Barney Cinnamon': Match(2,0, "102"),
+
+			u'Constantino Cordero': Match(4,3, "106"),
+			u'Jean-Leon Rocker': Match(2,3, "106"),
+			u'Juliann Ash': Match(5,1, "106"),
+			u'Alberto Bassi': Match(2,0, "106"),
+			u'Guillermo Martínez': Match(1,1, "106"),
+
+			u'Maria Tonon': Match(1,2, "95"),
+			u'Andrea Sina': Match(3,0, "103"),
+			u'Maurizio Anessi Pessina': Match(2,3, "104"),
+			u'Samuele De Matteis': Match(0,1, "105"),
+			u'Axel Guerrisi': Match(2,1, "107"),
+
+			u'Clint Eastwood': Match(1,3, "94"),
+			u'Johnny Liguori': Match(2,3, "109"),
+			u'Arianna De Matteis': Match(2,3, "113"),
+
+			u'Noa Köhler': Match(1,0, "91"),
+			u'Vanessa del Toro': Match(10,2, "92"),
+			u'Elisabete Tavares': Match(1,1, "101"),
+			u'Laura Cross': Match(0,1, "111"),
+
+			u'Anthony Summers': Match(2,2, "108"),
+			u'Lucy Guthmann': Match(4,3, "108"),
+			u'Liam Monticelli': Match(4,1, "108"),
+			u'Ines Lazo': Match(3,3, "108"),
+			u'Lana': None,
+
+			u'Klaas Vermeer': Match(8,3, "110"),
+			u'Sophia de la Cuesta': Match(4,2, "110"),
+			u'Liesbeth Vermeer': Match(3,3, "110"),
+			u'Irish Boven': Match(1,3, "110"),
+			u'Camiel Boven': Match(1,0, "110"),
+
+			u'Diego De Matteis': Match(3,0, "112"),
+			u'David Brillante': Match(3,7, "112"),
+			u'Azzura Brillante': Match(1,1, "112"),
+			u'Giulia Monaci': Match(2,1, "112"),
+			u'Barbara Lepschy': Match(0,8, "112"),
+
+			u'Royce Gallant': Match(0,2, "121"),
+			u'Max Bullock': Match(0,2, "121"),
+			u'Jacob Bullock': Match(3,2, "121"),
+			u'Liam Bullock': Match(0,2, "121"),
+			u'Jeremy Woodhouse': Match(8,2, "121"),
 		}
 	}
 }
