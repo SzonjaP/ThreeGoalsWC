@@ -68,19 +68,6 @@
         {
             "scored": 0,
             "rank": "50",
-            "gd": -3,
-            "conceded": 3,
-            "walkovers": 1,
-            "pts": -1,
-            "city": "London",
-            "draws": 0,
-            "name": "Ania Hogan",
-            "wins": 0,
-            "losses": 1
-        },
-        {
-            "scored": 0,
-            "rank": "49",
             "gd": -1,
             "conceded": 1,
             "walkovers": 1,
@@ -93,20 +80,7 @@
         },
         {
             "scored": 1,
-            "rank": "48",
-            "gd": -1,
-            "conceded": 2,
-            "walkovers": 1,
-            "pts": -1,
-            "city": "London",
-            "draws": 0,
-            "name": "Teo Ash",
-            "wins": 0,
-            "losses": 1
-        },
-        {
-            "scored": 1,
-            "rank": "47",
+            "rank": "49",
             "gd": -10,
             "conceded": 11,
             "walkovers": 0,
@@ -119,7 +93,7 @@
         },
         {
             "scored": 4,
-            "rank": "46",
+            "rank": "48",
             "gd": -6,
             "conceded": 10,
             "walkovers": 0,
@@ -132,7 +106,7 @@
         },
         {
             "scored": 1,
-            "rank": "45",
+            "rank": "47",
             "gd": -4,
             "conceded": 5,
             "walkovers": 0,
@@ -145,7 +119,7 @@
         },
         {
             "scored": 2,
-            "rank": "44",
+            "rank": "46",
             "gd": -4,
             "conceded": 6,
             "walkovers": 0,
@@ -158,7 +132,7 @@
         },
         {
             "scored": 2,
-            "rank": "43",
+            "rank": "45",
             "gd": -3,
             "conceded": 5,
             "walkovers": 0,
@@ -171,7 +145,7 @@
         },
         {
             "scored": 4,
-            "rank": "42",
+            "rank": "44",
             "gd": -3,
             "conceded": 7,
             "walkovers": 0,
@@ -184,7 +158,7 @@
         },
         {
             "scored": 4,
-            "rank": "41",
+            "rank": "43",
             "gd": -2,
             "conceded": 6,
             "walkovers": 0,
@@ -197,7 +171,7 @@
         },
         {
             "scored": 0,
-            "rank": "39",
+            "rank": "42",
             "gd": 0,
             "conceded": 0,
             "walkovers": 1,
@@ -209,21 +183,8 @@
             "losses": 0
         },
         {
-            "scored": 0,
-            "rank": "39",
-            "gd": 0,
-            "conceded": 0,
-            "walkovers": 1,
-            "pts": 0,
-            "city": "NYC",
-            "draws": 1,
-            "name": "Ace Mason",
-            "wins": 0,
-            "losses": 0
-        },
-        {
             "scored": 2,
-            "rank": "38",
+            "rank": "41",
             "gd": 0,
             "conceded": 2,
             "walkovers": 1,
@@ -236,7 +197,7 @@
         },
         {
             "scored": 3,
-            "rank": "37",
+            "rank": "40",
             "gd": 0,
             "conceded": 3,
             "walkovers": 1,
@@ -249,7 +210,7 @@
         },
         {
             "scored": 3,
-            "rank": "36",
+            "rank": "39",
             "gd": -3,
             "conceded": 6,
             "walkovers": 0,
@@ -262,7 +223,7 @@
         },
         {
             "scored": 3,
-            "rank": "35",
+            "rank": "38",
             "gd": -2,
             "conceded": 5,
             "walkovers": 0,
@@ -275,7 +236,7 @@
         },
         {
             "scored": 4,
-            "rank": "34",
+            "rank": "37",
             "gd": -2,
             "conceded": 6,
             "walkovers": 0,
@@ -288,7 +249,7 @@
         },
         {
             "scored": 0,
-            "rank": "33",
+            "rank": "36",
             "gd": -1,
             "conceded": 1,
             "walkovers": 0,
@@ -301,7 +262,7 @@
         },
         {
             "scored": 1,
-            "rank": "32",
+            "rank": "35",
             "gd": -1,
             "conceded": 2,
             "walkovers": 0,
@@ -313,8 +274,21 @@
             "losses": 1
         },
         {
+            "scored": 2,
+            "rank": "34",
+            "gd": -1,
+            "conceded": 3,
+            "walkovers": 0,
+            "pts": 1,
+            "city": "NYC",
+            "draws": 1,
+            "name": "Ace Mason",
+            "wins": 0,
+            "losses": 1
+        },
+        {
             "scored": 3,
-            "rank": "31",
+            "rank": "33",
             "gd": -1,
             "conceded": 4,
             "walkovers": 0,
@@ -327,7 +301,7 @@
         },
         {
             "scored": 4,
-            "rank": "30",
+            "rank": "32",
             "gd": 1,
             "conceded": 3,
             "walkovers": 1,
@@ -339,34 +313,8 @@
             "losses": 0
         },
         {
-            "scored": 3,
-            "rank": "29",
-            "gd": 2,
-            "conceded": 1,
-            "walkovers": 1,
-            "pts": 2,
-            "city": "London",
-            "draws": 0,
-            "name": "Kevin Symmons",
-            "wins": 1,
-            "losses": 0
-        },
-        {
-            "scored": 3,
-            "rank": "28",
-            "gd": 3,
-            "conceded": 0,
-            "walkovers": 1,
-            "pts": 2,
-            "city": "London",
-            "draws": 0,
-            "name": "Dawn Delaney",
-            "wins": 1,
-            "losses": 0
-        },
-        {
             "scored": 4,
-            "rank": "26",
+            "rank": "30",
             "gd": 3,
             "conceded": 1,
             "walkovers": 1,
@@ -379,7 +327,7 @@
         },
         {
             "scored": 4,
-            "rank": "26",
+            "rank": "30",
             "gd": 3,
             "conceded": 1,
             "walkovers": 1,
@@ -391,21 +339,8 @@
             "losses": 0
         },
         {
-            "scored": 9,
-            "rank": "25",
-            "gd": 8,
-            "conceded": 1,
-            "walkovers": 1,
-            "pts": 2,
-            "city": "London",
-            "draws": 0,
-            "name": "Zoe Ash",
-            "wins": 1,
-            "losses": 0
-        },
-        {
             "scored": 5,
-            "rank": "24",
+            "rank": "29",
             "gd": -5,
             "conceded": 10,
             "walkovers": 0,
@@ -418,7 +353,7 @@
         },
         {
             "scored": 7,
-            "rank": "23",
+            "rank": "28",
             "gd": -3,
             "conceded": 10,
             "walkovers": 0,
@@ -431,7 +366,7 @@
         },
         {
             "scored": 1,
-            "rank": "22",
+            "rank": "27",
             "gd": -2,
             "conceded": 3,
             "walkovers": 0,
@@ -443,8 +378,21 @@
             "losses": 1
         },
         {
+            "scored": 3,
+            "rank": "26",
+            "gd": -1,
+            "conceded": 4,
+            "walkovers": 0,
+            "pts": 3,
+            "city": "London",
+            "draws": 0,
+            "name": "Ania Hogan",
+            "wins": 1,
+            "losses": 1
+        },
+        {
             "scored": 2,
-            "rank": "19",
+            "rank": "23",
             "gd": 0,
             "conceded": 2,
             "walkovers": 0,
@@ -457,7 +405,7 @@
         },
         {
             "scored": 2,
-            "rank": "19",
+            "rank": "23",
             "gd": 0,
             "conceded": 2,
             "walkovers": 0,
@@ -470,7 +418,7 @@
         },
         {
             "scored": 2,
-            "rank": "19",
+            "rank": "23",
             "gd": 0,
             "conceded": 2,
             "walkovers": 0,
@@ -483,7 +431,7 @@
         },
         {
             "scored": 3,
-            "rank": "18",
+            "rank": "22",
             "gd": 0,
             "conceded": 3,
             "walkovers": 0,
@@ -496,7 +444,7 @@
         },
         {
             "scored": 5,
-            "rank": "16",
+            "rank": "20",
             "gd": 0,
             "conceded": 5,
             "walkovers": 0,
@@ -509,7 +457,7 @@
         },
         {
             "scored": 5,
-            "rank": "16",
+            "rank": "20",
             "gd": 0,
             "conceded": 5,
             "walkovers": 0,
@@ -522,7 +470,7 @@
         },
         {
             "scored": 2,
-            "rank": "15",
+            "rank": "19",
             "gd": 1,
             "conceded": 1,
             "walkovers": 0,
@@ -535,7 +483,7 @@
         },
         {
             "scored": 4,
-            "rank": "14",
+            "rank": "18",
             "gd": 1,
             "conceded": 3,
             "walkovers": 0,
@@ -548,7 +496,33 @@
         },
         {
             "scored": 5,
-            "rank": "12",
+            "rank": "17",
+            "gd": 1,
+            "conceded": 4,
+            "walkovers": 0,
+            "pts": 3,
+            "city": "London",
+            "draws": 0,
+            "name": "Teo Ash",
+            "wins": 1,
+            "losses": 1
+        },
+        {
+            "scored": 5,
+            "rank": "14",
+            "gd": 2,
+            "conceded": 3,
+            "walkovers": 0,
+            "pts": 3,
+            "city": "London",
+            "draws": 0,
+            "name": "Dawn Delaney",
+            "wins": 1,
+            "losses": 1
+        },
+        {
+            "scored": 5,
+            "rank": "14",
             "gd": 2,
             "conceded": 3,
             "walkovers": 0,
@@ -561,7 +535,7 @@
         },
         {
             "scored": 5,
-            "rank": "12",
+            "rank": "14",
             "gd": 2,
             "conceded": 3,
             "walkovers": 0,
@@ -574,7 +548,7 @@
         },
         {
             "scored": 5,
-            "rank": "11",
+            "rank": "13",
             "gd": 3,
             "conceded": 2,
             "walkovers": 0,
@@ -587,7 +561,7 @@
         },
         {
             "scored": 4,
-            "rank": "10",
+            "rank": "12",
             "gd": 2,
             "conceded": 2,
             "walkovers": 0,
@@ -600,7 +574,7 @@
         },
         {
             "scored": 4,
-            "rank": "9",
+            "rank": "11",
             "gd": 3,
             "conceded": 1,
             "walkovers": 0,
@@ -612,8 +586,21 @@
             "losses": 0
         },
         {
+            "scored": 9,
+            "rank": "10",
+            "gd": 8,
+            "conceded": 1,
+            "walkovers": 0,
+            "pts": 4,
+            "city": "London",
+            "draws": 1,
+            "name": "Zoe Ash",
+            "wins": 1,
+            "losses": 0
+        },
+        {
             "scored": 6,
-            "rank": "8",
+            "rank": "9",
             "gd": 3,
             "conceded": 3,
             "walkovers": 0,
@@ -626,7 +613,7 @@
         },
         {
             "scored": 8,
-            "rank": "6",
+            "rank": "7",
             "gd": 3,
             "conceded": 5,
             "walkovers": 0,
@@ -639,7 +626,7 @@
         },
         {
             "scored": 8,
-            "rank": "6",
+            "rank": "7",
             "gd": 3,
             "conceded": 5,
             "walkovers": 0,
@@ -652,7 +639,7 @@
         },
         {
             "scored": 6,
-            "rank": "5",
+            "rank": "6",
             "gd": 4,
             "conceded": 2,
             "walkovers": 0,
@@ -660,6 +647,19 @@
             "city": "Rome",
             "draws": 0,
             "name": "Diego De Matteis",
+            "wins": 2,
+            "losses": 0
+        },
+        {
+            "scored": 7,
+            "rank": "5",
+            "gd": 4,
+            "conceded": 3,
+            "walkovers": 0,
+            "pts": 6,
+            "city": "London",
+            "draws": 0,
+            "name": "Kevin Symmons",
             "wins": 2,
             "losses": 0
         },
@@ -718,6 +718,18 @@
     ],
     "teams": [
         {
+            "scored": 29,
+            "gd": 14,
+            "draws": 1,
+            "name": "London",
+            "conceded": 15,
+            "walkovers": 0,
+            "wins": 6,
+            "losses": 3,
+            "pts": 19,
+            "rank": "1"
+        },
+        {
             "scored": 25,
             "gd": 4,
             "draws": 0,
@@ -727,7 +739,7 @@
             "wins": 6,
             "losses": 4,
             "pts": 18,
-            "rank": "1"
+            "rank": "2"
         },
         {
             "scored": 24,
@@ -739,7 +751,7 @@
             "wins": 5,
             "losses": 2,
             "pts": 16,
-            "rank": "2"
+            "rank": "3"
         },
         {
             "scored": 26,
@@ -751,7 +763,7 @@
             "wins": 4,
             "losses": 4,
             "pts": 14,
-            "rank": "3"
+            "rank": "4"
         },
         {
             "scored": 20,
@@ -763,7 +775,7 @@
             "wins": 4,
             "losses": 5,
             "pts": 13,
-            "rank": "4"
+            "rank": "5"
         },
         {
             "scored": 18,
@@ -775,7 +787,7 @@
             "wins": 4,
             "losses": 5,
             "pts": 13,
-            "rank": "5"
+            "rank": "6"
         },
         {
             "scored": 18,
@@ -787,7 +799,7 @@
             "wins": 4,
             "losses": 5,
             "pts": 13,
-            "rank": "6"
+            "rank": "7"
         },
         {
             "scored": 24,
@@ -799,30 +811,18 @@
             "wins": 4,
             "losses": 6,
             "pts": 12,
-            "rank": "7"
-        },
-        {
-            "scored": 14,
-            "gd": -5,
-            "draws": 2,
-            "name": "NYC",
-            "conceded": 19,
-            "walkovers": 2,
-            "wins": 2,
-            "losses": 4,
-            "pts": 6,
             "rank": "8"
         },
         {
             "scored": 16,
-            "gd": 9,
-            "draws": 0,
-            "name": "London",
-            "conceded": 7,
-            "walkovers": 5,
-            "wins": 3,
-            "losses": 2,
-            "pts": 4,
+            "gd": -6,
+            "draws": 2,
+            "name": "NYC",
+            "conceded": 22,
+            "walkovers": 1,
+            "wins": 2,
+            "losses": 5,
+            "pts": 7,
             "rank": "9"
         },
         {
