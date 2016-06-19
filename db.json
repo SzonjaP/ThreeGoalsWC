@@ -719,135 +719,146 @@
     "teams": [
         {
             "scored": 35,
+            "rank": "1",
             "gd": 14,
-            "draws": 1,
-            "name": "London",
             "conceded": 21,
             "walkovers": 0,
+            "pts": 28,
+            "draws": 1,
+            "name": "London",
             "wins": 9,
             "losses": 5,
-            "pts": 28,
-            "rank": "1"
+            "norm_pts": 5.6
         },
         {
             "scored": 31,
+            "rank": "2",
             "gd": 10,
-            "draws": 1,
-            "name": "Milan",
             "conceded": 21,
             "walkovers": 0,
+            "pts": 25,
+            "draws": 1,
+            "name": "Milan",
             "wins": 8,
             "losses": 6,
-            "pts": 25,
-            "rank": "2"
+            "norm_pts": 5.0
         },
         {
             "scored": 36,
+            "rank": "3",
             "gd": 8,
-            "draws": 1,
-            "name": "BA",
             "conceded": 28,
             "walkovers": 0,
+            "pts": 25,
+            "draws": 1,
+            "name": "BA",
             "wins": 8,
             "losses": 6,
-            "pts": 25,
-            "rank": "3"
+            "norm_pts": 5.0
         },
         {
             "scored": 35,
+            "rank": "4",
             "gd": 4,
-            "draws": 3,
-            "name": "Budapest",
             "conceded": 31,
             "walkovers": 0,
+            "pts": 24,
+            "draws": 3,
+            "name": "Budapest",
             "wins": 7,
             "losses": 5,
-            "pts": 24,
-            "rank": "4"
+            "norm_pts": 4.8
         },
         {
             "scored": 35,
+            "rank": "5",
             "gd": 16,
-            "draws": 3,
-            "name": "Porto",
             "conceded": 19,
             "walkovers": 1,
+            "pts": 23,
+            "draws": 3,
+            "name": "Porto",
             "wins": 7,
             "losses": 4,
-            "pts": 23,
-            "rank": "5"
+            "norm_pts": 4.6
         },
         {
             "scored": 42,
+            "rank": "6",
             "gd": 7,
-            "draws": 2,
-            "name": "Brussels",
             "conceded": 35,
             "walkovers": 0,
+            "pts": 23,
+            "draws": 2,
+            "name": "Brussels",
             "wins": 7,
             "losses": 6,
-            "pts": 23,
-            "rank": "6"
+            "norm_pts": 4.6
         },
         {
             "scored": 30,
+            "rank": "7",
             "gd": -7,
-            "draws": 2,
-            "name": "Rome",
             "conceded": 37,
             "walkovers": 0,
+            "pts": 20,
+            "draws": 2,
+            "name": "Rome",
             "wins": 6,
             "losses": 7,
-            "pts": 20,
-            "rank": "7"
+            "norm_pts": 4.0
         },
         {
             "scored": 36,
+            "rank": "8",
             "gd": 0,
-            "draws": 1,
-            "name": "Melbourne",
             "conceded": 36,
             "walkovers": 1,
+            "pts": 18,
+            "draws": 1,
+            "name": "Melbourne",
             "wins": 6,
             "losses": 7,
-            "pts": 18,
-            "rank": "8"
+            "norm_pts": 3.6
         },
         {
             "scored": 24,
+            "rank": "9",
             "gd": -6,
-            "draws": 3,
-            "name": "NYC",
             "conceded": 30,
             "walkovers": 2,
+            "pts": 13,
+            "draws": 3,
+            "name": "NYC",
             "wins": 4,
             "losses": 6,
-            "pts": 13,
-            "rank": "9"
+            "norm_pts": 2.6
         },
         {
             "scored": 13,
+            "rank": "10",
             "gd": 4,
-            "draws": 2,
-            "name": "SP",
             "conceded": 9,
             "walkovers": 11,
+            "pts": -3,
+            "draws": 2,
+            "name": "SP",
             "wins": 2,
             "losses": 0,
-            "pts": -3,
-            "rank": "10"
+            "norm_pts": -0.6
         },
         {
             "scored": 2,
+            "rank": "11",
             "gd": -9,
-            "draws": 1,
-            "name": "Rio",
             "conceded": 11,
             "walkovers": 11,
+            "pts": -10,
+            "draws": 1,
+            "name": "Rio",
             "wins": 0,
             "losses": 3,
-            "pts": -10,
-            "rank": "11"
+            "norm_pts": -2.0
         }
     ]
 }

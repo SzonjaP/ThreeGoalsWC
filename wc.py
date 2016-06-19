@@ -70,16 +70,20 @@ def conv(team):
 		res['conceded'] += result.conceded
 
 	res['gd'] = res['scored']-res['conceded']
-	res['pts'] = 3*res['wins'] + 1*res['draws'] + (-1)*res['walkovers']
+	res['pts'] = (3*res['wins'] + 1*res['draws'] + (-1)*res['walkovers'])
+	res['norm_pts'] = res['pts'] / 5.0
 
 	return res;
 
 def rank(x):
 	return (
-		x['pts'],
-		x['wins'],
+		(x['norm_pts'] if "norm_pts" in x else x['pts']),
 		x['gd'],
 		x['scored']
+		#x['pts'],
+		#x['wins'],
+		#x['gd'],
+		#x['scored']
 	)
 def add_ranks(xs):
 	prev = None
@@ -103,14 +107,22 @@ padchar = '.'
 def num_col(num):
 	return str(num).rjust(3, padchar).ljust(4, padchar)
 
-print ".#|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Team".ljust(namecollen, padchar), num_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
+def float_col(fl):
+	try:
+		st = ("%.2f" % fl)
+	except:
+		st = fl
+
+	return st.rjust(5, padchar).ljust(6, padchar)
+
+print ".#|%s||%s||%s|%s|%s|%s||%s||%s|%s" % ("Team".ljust(namecollen, padchar), float_col("Pts"), num_col("W"), num_col("D"), num_col("L"), num_col("M"), num_col("GD"), num_col("Sc"), num_col("Cn"))
 print "--+%s++----++----+----+----+----++----++----+----" % "-".ljust(namecollen, "-")
 for result in team_results:
 	print ("%s|%s||%s||%s|%s|%s|%s||%s||%s|%s" %
 		(
 			str(result['rank']).rjust(2, padchar),
 			result['name'].ljust(namecollen, padchar),
-			num_col(result['pts']),
+			float_col(result['norm_pts']),
 			num_col(result['wins']),
 			num_col(result['draws']),
 			num_col(result['losses']),
