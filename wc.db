@@ -9,7 +9,7 @@
 		"Milan": [ u'Maria Tonon', u'Axel Guerrisi', u'Samuele De Matteis', u'Andrea Sina', u'Maurizio Anessi Pessina' ],
 		"Melbourne": [ u'Royce Gallant', u'Max Bullock', u'Jacob Bullock', u'Liam Bullock', u'Jeremy Woodhouse' ],
 		"Rome": [ u'David Brillante', u'Azzura Brillante', u'Diego De Matteis', u'Giulia Monaci', u'Barbara Lepschy' ],
-		"NYC": [ u'Clint Eastwood', u'Johnny Liguori', u'Arianna De Matteis', u'Ace Mason', u'Luna Hazelet' ],
+		"NYC": [ u'Clint Eastwood', u'Johnny Liguori', u'Arianna De Matteis', u'Ace Mason', u'Luna Hazelet' ], #, u"Matt Riisager"
 		"Porto": [ u'Laura Cross', u'Noa Köhler', u'Ayana Taylor', u'Vanessa del Toro', u'Elisabete Tavares' ],
 		"Rio": [ u'Damien Carpenter', u'Sean Chapman', u'Lexie Chapman', u'Thiago de la Cruz Tome', u'Drago Müller' ],
 		"SP": [ u'Anthony Summers', u'Lucy Guthmann', u'Lana', u'Liam Monticelli', u'Ines Lazo' ]
@@ -137,11 +137,66 @@
 			u'Liam Bullock': Match(0,2, "121"),
 			u'Jeremy Woodhouse': Match(8,2, "121"),
 
-			u'Zoe Ash': Match(0,0, "2264499.30"),
-			u'Teo Ash': Match(4,2, "2264499.30"),
-			u'Ania Hogan': Match(3,1, "2264499.30"),
-			u'Dawn Delaney': Match(2,3, "2264499.30"),
-			u'Kevin Symmons': Match(4,2, "2264499.32"),
+			u'Zoe Ash': Match(0,0, "137"),
+			u'Teo Ash': Match(4,2, "137"),
+			u'Ania Hogan': Match(3,1, "137"),
+			u'Dawn Delaney': Match(2,3, "137"),
+			u'Kevin Symmons': Match(4,2, "137"),
+		},
+		'2016-06-12': {
+			u'Constantino Cordero': Match(4,0, "132"),
+			u'Jean-Leon Rocker': Match(3,7, "132"),
+			u'Juliann Ash': Match(4,2, "132"),
+			u'Alberto Bassi': Match(3,2, "132"),
+			u'Guillermo Martínez': Match(2,0, "132"),
+
+			u'Bia Bauer': Match(3,0, "125"),
+			u'Beatrix Bíró': Match(3,3, "126"),
+			u'Liliána Székely': Match(0,3, "128"),
+			u'Szonja Pallagi': Match(2,2, "129"),
+			u'Barney Cinnamon': Match(2,2, "129"),
+
+			u'Andrea Sina': Match(3,1, "124"),
+			u'Maria Tonon': Match(3,2, "131"),
+			u'Axel Guerrisi': Match(3,1, "136"),
+			u'Maurizio Anessi Pessina': Match(1,2, "139"),
+			u'Samuele De Matteis': Match(3,0, "141"),
+
+			u'Clint Eastwood': Match(2,1, "123"),
+			u'Arianna De Matteis': Match(2,2, "140"),
+			u'Ace Mason': Match(3,2, "142"),
+			u'Johnny Liguori': Match(1,3, "143"),
+
+			u'Laura Cross': Match(1,3, "122"),
+			u'Elisabete Tavares': Match(1,3, "133"),
+			u'Noa Köhler': Match(3,1, "138"),
+			u'Vanessa del Toro': Match(4,2, "144"),
+
+			u'Damien Carpenter': Match(1,5, "127"),
+
+			u'Zoe Ash': Match(1,0, "145"),
+			u'Teo Ash': Match(0,3, "145"),
+			u'Ania Hogan': Match(2,3, "145"),
+			u'Dawn Delaney': Match(1,0, "145"),
+			u'Kevin Symmons': Match(2,0, "145"),
+
+			u'Irish Boven': Match(1,3, "146"),
+			u'Klaas Vermeer': Match(1,2, "146"),
+			u'Sophia de la Cuesta': Match(2,1, "146"),
+			u'Liesbeth Vermeer': Match(2,1, "146"),
+			u'Camiel Boven': Match(10,0, "146"),
+
+			u'Diego De Matteis': Match(3,3, "148"),
+			u'David Brillante': Match(3,2, "148"),
+			u'Azzura Brillante': Match(4,0, "148"),
+			u'Giulia Monaci': Match(0,2, "148"),
+			u'Barbara Lepschy': Match(2,3, "148"),
+
+			u'Royce Gallant': Match(0,4, "2265027.34"),
+			u'Jacob Bullock': Match(1,1, "2265027.35"),
+			u'Max Bullock': Match(7,2, "2265027.35"),
+			u'Liam Bullock': Match(4,2, "2265027.35"),
+			u'Jeremy Woodhouse': None,
 		}
 	}
 }
